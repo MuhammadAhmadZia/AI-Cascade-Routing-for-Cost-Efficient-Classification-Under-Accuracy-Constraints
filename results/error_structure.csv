@@ -1,0 +1,9 @@
+dataset,small,n,escalation_can_help,escalation_would_harm,both_wrong,both_wrong_share
+cfpb,qwen3-1.7b,1000,485,24,219,0.219
+cfpb,qwen3-4b,1000,279,21,219,0.219
+banking77,qwen3-1.7b,1000,222,40,280,0.28
+banking77,qwen3-4b,1000,121,46,280,0.28
+ledgar,qwen3-1.7b,500,172,18,189,0.378
+ledgar,qwen3-4b,500,83,30,189,0.378
+clinc150,qwen3-1.7b,500,135,21,85,0.17
+clinc150,qwen3-4b,500,71,39,85,0.17

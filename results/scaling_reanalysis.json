@@ -1,0 +1,27 @@
+{
+  "pooled_r": 0.956,
+  "cluster_bootstrap_ci": [
+    0.88,
+    0.99
+  ],
+  "leave_one_dataset_out_r": {
+    "cfpb": 0.975,
+    "banking77": 0.96,
+    "ledgar": 0.972,
+    "clinc150": 0.921
+  },
+  "within_dataset_saving_delta": {
+    "cfpb": 0.189,
+    "banking77": 0.243,
+    "ledgar": 0.263,
+    "clinc150": 0.236
+  },
+  "within_dataset_all_positive": true,
+  "within_dataset_mean_delta": 0.233,
+  "sign_test_one_sided_p": 0.0625,
+  "local_slope_range": [
+    0.93,
+    2.27
+  ],
+  "note": "Direction is consistent across all datasets and survives dataset-level resampling. With four datasets the sign test is not conclusive at conventional levels, and the local slope varies by a factor of about 2.4, so the relationship is monotone and steep rather than linear with a transferable coefficient."
+}
